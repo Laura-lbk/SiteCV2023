@@ -1,14 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import MenuBurger from "./Menu/MenuBurger.js";
+import Content from "./Content/Content";
+import { BrowserRouter } from 'react-router-dom'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import reportWebVitals from "./reportWebVitals";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter>
+    <div id="outer-container">
+      <MenuBurger></MenuBurger>
+      <main id="page-wrap">
+        <Content></Content>
+      </main>
+    </div>
+    </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
