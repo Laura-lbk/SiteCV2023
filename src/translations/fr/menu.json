@@ -1,0 +1,9 @@
+{
+    "MENU" : {
+        "PRESENTATION" : "Présentation",
+        "SKILLS" : "Compétences",
+        "EXP" : "Expériences Profesionelles",
+        "SCHOOL" : "Parcous Scolaire",
+        "ABOUT" : "A propos de moi"
+    }
+}
