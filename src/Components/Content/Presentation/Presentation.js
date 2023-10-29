@@ -4,7 +4,7 @@ import './Presentation.css'
 class Presentation extends React.Component{
     render(){
         return (
-            <div class='container' id='section-presentation'>
+            <div class='presentation-container' id='section-presentation'>
                 <div>Presentation</div>
             </div>
         );
