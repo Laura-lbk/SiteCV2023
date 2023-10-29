@@ -1,3 +1,6 @@
-.container{
+.presentation-container{
     height : 1800px;
+    /* background: linear-gradient(90deg, rgba(136,100,108,1) 0%, rgba(177,133,139,1) 44%, rgba(96,83,95,1) 100%); */
+    background: radial-gradient(circle, rgba(136,100,108,1) 0%, rgba(108,92,108,1) 35%, rgba(58,56,71,1) 100%);
+    border-top: 5px solid rgba(0, 0, 0, 0.137)
 }
