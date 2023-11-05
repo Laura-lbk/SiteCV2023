@@ -58,14 +58,13 @@
   font-weight: 300;
 }
 
-.upjv-image{
-  display: block;
-  opacity: 20%;
-  position: absolute;
-  z-index: -1;
-  left: 50%;
-  transform: translate(-50%, 0%);
-}
+/* .upjv-image{
+  height: 20vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 
 
