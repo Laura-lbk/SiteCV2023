@@ -5,7 +5,7 @@ class Experience extends React.Component{
     render(){
         return (
             <div class='container' id='section-experience'>
-                <div>Experience</div>
+                <div style={{height:'2000px'}}>Experience</div>
             </div>
         );
     }

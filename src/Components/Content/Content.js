@@ -2,7 +2,7 @@ import React from "react";
 import './Content.css'
 import Presentation from "./Presentation/Presentation";
 import Skills from "./Skills/Skills";
-import School from "./School/School";
+import School from "./School/School.tsx";
 import Experience from "./Experience/Experience";
 import About from "./About/About";
 import Homepage from "./Parallax/MultiLayerParallax.tsx";
@@ -15,12 +15,13 @@ class Content extends React.Component{
             <div class='MainContainer'>
                 <ParallaxProvider>
                 <Homepage/>
-                </ParallaxProvider>
+                
                 <Presentation></Presentation>
                 <Skills></Skills>
                 <School></School>
                 <Experience></Experience>
                 <About></About>
+                </ParallaxProvider>
             </div>
         );
     }

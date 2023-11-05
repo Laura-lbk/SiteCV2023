@@ -13,18 +13,22 @@ import menu_en from "./translations/en/menu.json";
 import menu_fr from "./translations/fr/menu.json";
 import transverse_en from "./translations/en/transverse.json";
 import transverse_fr from "./translations/fr/transverse.json";
+import school_en from "./translations/en/school.json";
+import school_fr from "./translations/fr/school.json";
 
 i18next.init({
-  interpolation: { escapeValue: false },  // React already does escaping
-    lng: 'fr',                              // language to use
+  interpolation: { escapeValue: false }, 
+    lng: 'fr',                          
     resources: {
         en: {
             menu: menu_en, 
-            transverse: transverse_en           // 'common' is our custom namespace
+            transverse: transverse_en,
+            school: school_en
         },
         fr: {
             menu: menu_fr,
-            transverse: transverse_fr  
+            transverse: transverse_fr,
+            school: school_fr  
         },
     },
 });

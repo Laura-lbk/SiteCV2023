@@ -1,0 +1,18 @@
+{
+    "SCHOOL" : {
+        "TITLE" : "Parcours Scolaire",
+        "MASTER" : {
+            "LABEL" : "Master MIAGE OSIE",
+            "INFORMATION" : "Méthodes Informatiques Appliquées à la Gestion d'Entreprise",
+            "INFORMATION2": "Spécialisée en Organisation des Systèmes d'Informations en Entrerprise"
+        },
+        "LICENCE": {
+            "LABEL" : "Licence Professionnelle CDAWM",
+            "INFORMATION" : "Conception & Développement d'Applications Web et Mobiles"
+        },
+        "DUT": {
+            "LABEL" : "DUT Informatique",
+            "INFORMATION" : "Bases de l'Informatique & ERP"
+        }
+    }
+}

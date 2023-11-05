@@ -1,0 +1,18 @@
+{
+    "SCHOOL" : {
+        "TITLE" : "Academic Career",
+        "MASTER" : {
+            "LABEL" : "Master degree",
+            "INFORMATION" : "Computer Science Applied to Business Management ",
+            "INFORMATION2": "Specialized in Corporate information systems organization"
+        },
+        "LICENCE": {
+            "LABEL" : "Professional bachelor's degree",
+            "INFORMATION" : "Design and development of web and mobile applications"
+        },
+        "DUT": {
+            "LABEL" : "Technical University Degree in Computer Science",
+            "INFORMATION" : "IT Basics & ERP"
+        }
+    }
+}
