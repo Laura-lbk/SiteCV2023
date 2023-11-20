@@ -25,9 +25,15 @@ function Presentation() {
   const [pr] = useTranslation("presentation");
 
   return (
-    <div  id="section-presentation">
+    <div id="section-presentation">
       <div class="presentation-container">
-        <div className="presentation-image">Image</div>
+        <div className="presentation-image">
+          {/* <img
+            src={require("../../../Images/Selfie.jpg")}
+            alt="Photo"
+            id="selfie"
+          ></img> */}
+        </div>
         <div className="presentation-spacer"></div>
         <div className="presentation-text">
           <div>{pr("PRESENTATION.TEXT1")}</div>

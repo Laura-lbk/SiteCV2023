@@ -11,14 +11,14 @@ function About() {
     <div id="section-about">
       <h1>{about("ABOUT.TITLE")}</h1>
 
-      <Carousel interval={null}>
+      <Carousel interval={null} indicators={false}>
         <Carousel.Item>
           <div className="about-image-container">
             <img
               src={require("../../../Images/About/Equitation.jpg")}
               alt="Equitation"
               className="about-image"
-              style={{ top: "-85px" }}
+              id="about-equitation"
             ></img>
           </div>
           <Carousel.Caption>
@@ -34,7 +34,7 @@ function About() {
               src={require("../../../Images/About/Gâteaux.jpg")}
               alt="Gateaux"
               className="about-image"
-              style={{ top: "-413px" }}
+              id="about-gateaux"
             ></img>
           </div>
           <Carousel.Caption>
@@ -48,7 +48,7 @@ function About() {
               src={require("../../../Images/About/Carte.jpg")}
               alt="Dessin"
               className="about-image"
-              style={{ top: "-122px" }}
+              id="about-carte"
             ></img>
           </div>
           <Carousel.Caption>
@@ -62,7 +62,7 @@ function About() {
               src={require("../../../Images/About/Sportive.jpg")}
               alt="Sport"
               className="about-image"
-              style={{ top: "-5px" }}
+              id="about-sport"
             ></img>
           </div>
           <Carousel.Caption>
@@ -76,7 +76,7 @@ function About() {
               src={require("../../../Images/About/Youtube.jpg")}
               alt="Youtube"
               className="about-image"
-              style={{ top: "-5px" }}
+              id="about-youtube"
             ></img>
           </div>
           <Carousel.Caption>
