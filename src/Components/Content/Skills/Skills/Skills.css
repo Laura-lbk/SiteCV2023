@@ -6,6 +6,7 @@
   display: flex;
   margin-top: 20px;
   align-items: flex-end;
+  padding-right: 40px;;
 }
 
 .colonne1-3 {
@@ -37,7 +38,7 @@
   background: white;
   border-radius: 25px;
   margin: auto;
-  padding-right: 40px;
+  padding-bottom: 50px;
 }
 
 #section-skills{
