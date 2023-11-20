@@ -1,0 +1,12 @@
+{
+    "TRANSVERSE" : {
+        "TITLE" : "Compétences Transverses",
+        "ENGLISH": "Peut tenir une conversation",
+        "FRENCH": "Billingue",
+        "GERMAN": "Langue Natale",
+        "PREMIERPRO" : "Montage Vidéo avec Premier Pro",
+        "PROJECT" : "Gestion de Projet",
+        "COMMUNITY" : "Gestion de Communauté"
+
+    }
+}

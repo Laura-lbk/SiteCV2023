@@ -1,0 +1,64 @@
+.language{
+    height : 100px;
+    width:150px;
+    display: block;
+    margin: auto;
+}
+
+.language-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.language-desc{
+    margin-top:20px;
+    font-size: 1.1em;
+    width: 300px;
+    text-align: center;
+}
+
+.transverse .ligne {
+    margin-top:40px;
+    width : 60%;
+}
+
+.transverse .icone{
+    font-size: 3em;
+}
+
+.transverse-text{
+    font-size: 1.2em;
+    display: flex;
+    align-items:center;
+}
+
+.transverse .other-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .language-container{
+        display: block;
+    }
+
+    .language-desc{
+        margin-top:20px;
+        margin-bottom: 40px;
+        font-size: 1.1em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .transverse .ligne {
+        width : 100%;
+    }
+
+    .transverse-text{
+        margin-top:20px;
+        display: block;
+        text-align: center;
+    }
+}

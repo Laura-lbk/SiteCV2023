@@ -1,0 +1,38 @@
+{
+    "EXPERIENCE" : {
+        "TITLE" : "Experience Professionnelle",
+        "AE": {
+            "TITLE" : "Créateur de contenu à temps plein",
+            "DATE" : "Septembre 2022 - Maintenant",
+            "DESCRIPTION1" : "Création de contenu sur Youtube",
+            "DESCRIPTION2" : "Gestion de réseaux sociaux et de communauté",
+            "DESCRIPTION3" : "Maintenance d'une boutique Wordpress",
+            "DESCRIPTION4" : "Collaboration avec divers Editeurs : "
+        },
+        "FAC": {
+            "TITLE" : "Contrat étudiant avec l'université",
+            "DATE" : "Mars 2023 - Juin 2023",
+            "DESCRIPTION" : "Correction et Encadrement des L1 sur PIX"
+        },
+        "APPRENTICE": {
+            "TITLE" : "Alternance Full-Stack - Mipih",
+            "DATE" : "Septembre 2020 - Septembre 2022",
+            "DESCRIPTION" : "Développement d’un logiciel hospitalier de gestion du temps et des activités"
+        },
+        "INTERN": {
+            "TITLE" : "Stage Full-Stack - Mipih",
+            "DATE" : "Juillet 2020 - Septembre 2020",
+            "DESCRIPTION" : "Développement d’un Dashboard intra-équipe"
+        },
+        "INTERNDUT": {
+            "TITLE" : "Stage Webdesign - Ohana",
+            "DATE" : "Avril 2019- Mai 2019",
+            "DESCRIPTION" : "Création de Templates et Modules réutilisables pour GatsbyJS"
+        },
+        "VOLUNTEER": {
+            "TITLE" : "Bénévole d'une Ferme pédagogique",
+            "DATE" : "Tous les étés depuis 2009",
+            "DESCRIPTION" : "Accueil des visiteurs et soins des animaux"
+        }
+    }
+}

@@ -1,0 +1,84 @@
+.container {
+  padding-bottom: 50px;
+}
+
+.ligne {
+  display: flex;
+  margin-top: 20px;
+  align-items: flex-end;
+}
+
+.colonne1-3 {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.colonne2-3 {
+  width: 70%;
+}
+
+.software {
+  height: 60px;
+}
+
+.temoin {
+  margin: 0% 10%;
+}
+
+.temoin-legende {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills-container{
+  width: 60%;
+  background: white;
+  border-radius: 25px;
+  margin: auto;
+  padding-right: 40px;
+}
+
+#section-skills{
+  margin:0;
+  padding:0;
+  background-image: url('../../../../Images/Background.gif');
+  height: fit-content;
+  padding-top:5px;
+  padding-bottom:50px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1440px) {
+  .skills-container{
+    width: 90%;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .ligne {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .colonne1-3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .colonne2-3 {
+    width: 100%;
+  }
+
+  .skills-container{
+    width: 100%;
+  }
+}

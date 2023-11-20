@@ -1,4 +1,9 @@
 .MainContainer{
-    margin: 0% 20%;
-    padding-top : 50px;
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .MainContainer{
+        margin: 0% 0%;
+    }
 }

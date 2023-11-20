@@ -1,0 +1,29 @@
+{
+    "ABOUT" : {
+        "TITLE" : "Qui suis-je ?",
+        "EQUITATION" : {
+            "TITLE" : "Equitation",
+            "TEXT1" : "Passionnée par les chevaux depuis mon plus jeune âge, je pratique l'équitation depuis une quinzaine d'années. J'ai participé à plusieurs concours et même deux fois au Championnat de France."
+        },
+        "FOOD" : {
+            "TITLE" : "Pâtisserie",
+            "TEXT1" : "Je l'admets, je suis gourmande. Pour cette raison, j'adore passer des heures en cuisine pour réaliser des gâteaux et patisseries. Je fais bien la cuisine aussi mais mon peché mignon c'est les gâteaux." 
+        },       
+        "DRAWING" : {
+            "TITLE" : "Dessin",
+            "TEXT1" : "J'aime beaucoup dessiner, de ce fait je tiens un boutique en ligne où l'on peut acheter mes motifs."
+        },
+        "SPORT" : {
+            "TITLE" : "Je suis une personne active",
+            "TEXT1" : "Je fais la majorité de mes déplacements en vélo mais je fais également de la course à pied et de la natation. Parfois il y'a des râtés, mais l'essentiel est de se relever."
+        },
+        "YOUTUBE" : {
+            "TITLE" : "Ma chaine Youtube",
+            "TEXT1" : "Même si j'ai travaillé a temps plein sur ma chaine cette année, c'est avant tout ma passion. Et c'est ma raison principale de ne plus en faire mon métier."
+        },
+        "ENDING" : {
+            "TEXT1" : "J'espère que cette présentation vous à plu. N'hésitez pas à me joindre sur ",
+            "TEXT2" : "Si cela vous intéresse, voici le dépôt git du projet"
+        }
+    }
+}

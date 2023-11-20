@@ -2,8 +2,9 @@
     "MENU" : {
         "PRESENTATION" : "Introduction",
         "SKILLS" : "Skills",
-        "EXP" : "Professional Experiences",
-        "SCHOOL" : "Schooling",
-        "ABOUT" : "Get to know me"
+        "EXP" : "Work Experiences",
+        "SCHOOL" : "Academic Career",
+        "ABOUT" : "Get to know me",
+        "TITLE" : "Welcome on my Website"
     }
 }

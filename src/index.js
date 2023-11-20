@@ -1,3 +1,5 @@
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
@@ -9,18 +11,36 @@ import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
 import menu_en from "./translations/en/menu.json";
 import menu_fr from "./translations/fr/menu.json";
-
-import reportWebVitals from "./reportWebVitals";
+import transverse_en from "./translations/en/transverse.json";
+import transverse_fr from "./translations/fr/transverse.json";
+import school_en from "./translations/en/school.json";
+import school_fr from "./translations/fr/school.json";
+import experience_en from "./translations/en/experience.json";
+import experience_fr from "./translations/fr/experience.json";
+import presentation_en from "./translations/en/presentation.json"
+import presentation_fr from "./translations/fr/presentation.json"
+import about_en from "./translations/en/about.json"
+import about_fr from "./translations/fr/about.json"
 
 i18next.init({
-  interpolation: { escapeValue: false },  // React already does escaping
-    lng: 'fr',                              // language to use
+  interpolation: { escapeValue: false }, 
+    lng: 'fr',                          
     resources: {
         en: {
-            menu: menu_en,            // 'common' is our custom namespace
+            menu: menu_en, 
+            presentation: presentation_en,
+            transverse: transverse_en,
+            school: school_en,
+            experience: experience_en,
+            about: about_en
         },
         fr: {
             menu: menu_fr,
+            presentation: presentation_fr,
+            transverse: transverse_fr,
+            school: school_fr,
+            experience : experience_fr,
+            about: about_fr
         },
     },
 });
@@ -39,7 +59,3 @@ root.render(
   </BrowserRouter>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
