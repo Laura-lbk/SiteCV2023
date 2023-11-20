@@ -1,0 +1,95 @@
+.accordion-container{
+    width: 70%;
+    margin: auto;
+}
+
+.experience-container{
+    background: #fde1de;
+    height: fit-content;
+    padding-top:1px;
+    padding-bottom: 100px;
+}
+
+.accordion-header{
+    margin: 0 !important;
+}
+
+.accordion-header-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.accordion-button {
+    font-size: 0.9em; 
+    color :#fde1de !important;
+    background-color: #94666f !important;
+}
+
+.collapsed {
+    font-size: 0.9em;
+    color: #94666f !important;
+    background-color: white !important;
+}
+
+.accordion-body{
+    text-align: center;
+    font-size: 1.3em !important;
+    color: #94666f !important; 
+}
+
+.accordion-body-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.accordion-body-flex .software{
+    height: 40px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .accordion-button {
+        font-size: 0.6em; 
+    }
+    
+    .collapsed {
+        font-size: 0.6em;
+        color: #94666f !important;
+        background-color: white !important;
+    }
+    
+    .accordion-body{
+        text-align: center; 
+        font-size: 1em !important;
+        color: #94666f !important; 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .accordion-container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .accordion-header-flex{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .accordion-body-flex{
+        display: block;
+        height: 120px;
+    }
+    
+    .accordion-body-flex .software{
+        height: 40px;
+    }
+
+    .accordion-container .software{
+        height: 40px;
+    }
+}

@@ -15,6 +15,12 @@ import transverse_en from "./translations/en/transverse.json";
 import transverse_fr from "./translations/fr/transverse.json";
 import school_en from "./translations/en/school.json";
 import school_fr from "./translations/fr/school.json";
+import experience_en from "./translations/en/experience.json";
+import experience_fr from "./translations/fr/experience.json";
+import presentation_en from "./translations/en/presentation.json"
+import presentation_fr from "./translations/fr/presentation.json"
+import about_en from "./translations/en/about.json"
+import about_fr from "./translations/fr/about.json"
 
 i18next.init({
   interpolation: { escapeValue: false }, 
@@ -22,13 +28,19 @@ i18next.init({
     resources: {
         en: {
             menu: menu_en, 
+            presentation: presentation_en,
             transverse: transverse_en,
-            school: school_en
+            school: school_en,
+            experience: experience_en,
+            about: about_en
         },
         fr: {
             menu: menu_fr,
+            presentation: presentation_fr,
             transverse: transverse_fr,
-            school: school_fr  
+            school: school_fr,
+            experience : experience_fr,
+            about: about_fr
         },
     },
 });

@@ -1,0 +1,29 @@
+{
+    "ABOUT" : {
+        "TITLE" : "Who am I ?",
+        "EQUITATION" : {
+            "TITLE" : "Horse riding",
+            "TEXT1" : "Passionate about horses since a very young age, I've been riding for about 15 years. I have participated in several competitions and even twice in the French Championships."
+        },
+        "FOOD" : {
+            "TITLE" : "Baking",
+            "TEXT1" : "I admit it, I have a sweet tooth. That's why I love spending hours in the kitchen making cakes and pastries. I'm a good cook too, but cakes are my speciality. "
+        },
+        "DRAWING" : {
+            "TITLE" : "Drawing",
+            "TEXT1" : "I love to draw, so I run an online shop where you can buy my designs."
+        },
+        "SPORT" : {
+            "TITLE" : "I'm an active person",
+            "TEXT1" : "I do most of my commuting by bike, but I also run and swim. Sometimes there are bloopers, but I always get back on my feet."
+        },
+        "YOUTUBE" : {
+            "TITLE" : "My Youtube Channel",
+            "TEXT1" : "Even though I've been working full-time on my channel this year, it's above all my passion. And that's my main reason for no longer making it my job."
+        },
+        "ENDING" : {
+            "TEXT1" : "I hope you enjoyed this presentation. Don't hesitate to contact me on",
+            "TEXT2" : "If you're interested, here's the git repository for the project"
+        }
+    }
+}

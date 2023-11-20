@@ -8,16 +8,12 @@ import Mountain3 from "../../../Images/Mountains/Mountain3.png"
 import Mountain2 from "../../../Images/Mountains/Mountain2.png"
 import Mountain1 from "../../../Images/Mountains/Mountain1.png"
 
+import { useTranslation } from "react-i18next";
+
 
 function Homepage() {
-//   const [offsetY, setOffsetY] = useState(0);
-//   const handleScroll = () => setOffsetY(window.pageYOffset);
 
-//   useEffect(() => {
-//     window.addEventListener("scroll", handleScroll);
-
-//     return () => window.removeEventListener("scroll", handleScroll);
-//   }, []);
+const [t] = useTranslation("menu");
 
 const background: BannerLayer = {
   image: MountainBackground,
@@ -32,7 +28,7 @@ const headline: BannerLayer = {
   expanded: false,
   children: (
     <div className="inset center">
-      <h1>Hello World!</h1>
+      <h1>{t("MENU.TITLE")}</h1>
     </div>
   )
 };
@@ -65,30 +61,6 @@ const mountain1: BannerLayer = {
       className="full"
     />
     </div>
-    // <div className="mountain-container">
-    //   <img
-    //     src={require("../../../Images/Mountains/MountainComplete.jpg")}
-    //     alt=""
-    //     className="mountain-image"
-    //     style={{trasnform: `translateY(${offsetY * 0.5}px)`}}
-    //   />
-    //   <img
-    //     src={require("../../../Images/Mountains/Mountain3.png")}
-    //     alt=""
-    //     className="mountain-image"
-    //   />
-    //   <img
-    //     src={require("../../../Images/Mountains/Mountain2.png")}
-    //     alt=""
-    //     className="mountain-image"
-    //   />
-    //   <img
-    //     src={require("../../../Images/Mountains/Mountain1.png")}
-    //     alt=""
-    //     className="mountain-image"
-    //   />
-    //   <div>TEST</div>
-    // </div>
   );
 }
 

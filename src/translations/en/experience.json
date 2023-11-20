@@ -1,0 +1,38 @@
+{
+    "EXPERIENCE" : {
+        "TITLE" : "Work Experience",
+        "AE": {
+            "TITLE" : "Full Time Content Creator",
+            "DATE" : "September 2022 - Now",
+            "DESCRIPTION1" : "Content creation on Youtube",
+            "DESCRIPTION2" : "Social network and community management",
+            "DESCRIPTION3" : "Maintenance of a wordpress shop",
+            "DESCRIPTION4" : "Collaboration with various publishers : "
+        },
+        "FAC": {
+            "TITLE" : "Student employment contract with the University",
+            "DATE" : "March 2023 - June 2023",
+            "DESCRIPTION" : "Correcting and supervising bachelor degree students on PIX"
+        },
+        "APPRENTICE": {
+            "TITLE" : "Full-Stack Apprenticeship - Mipih",
+            "DATE" : "September 2020 - September 2022",
+            "DESCRIPTION" : "Development of time and activity management software for hospitals"
+        },
+        "INTERN": {
+            "TITLE" : "Full-Stack Internship - Mipih",
+            "DATE" : "July 2020 - September 2020",
+            "DESCRIPTION" : "Development of an intra-team dashboard"
+        },
+        "INTERNDUT": {
+            "TITLE" : "Webdesign Internship - Ohana",
+            "DATE" : "April 2019- May 2019",
+            "DESCRIPTION" : "Creating GatsbyJS reusable Templates and Modules"
+        },
+        "VOLUNTEER": {
+            "TITLE" : "Volunteer at an Educational farm",
+            "DATE" : "Every Summer since 2009",
+            "DESCRIPTION" : "Visitor reception and animal care"
+        }
+    }
+}

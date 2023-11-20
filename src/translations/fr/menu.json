@@ -2,8 +2,9 @@
     "MENU" : {
         "PRESENTATION" : "Présentation",
         "SKILLS" : "Compétences",
-        "EXP" : "Expériences Profesionelles",
-        "SCHOOL" : "Parcous Scolaire",
-        "ABOUT" : "A propos de moi"
+        "EXP" : "Expérience Profesionelle",
+        "SCHOOL" : "Parcours Scolaire",
+        "ABOUT" : "A propos de moi",
+        "TITLE" : "Bienvenu sur ma page !"
     }
 }
