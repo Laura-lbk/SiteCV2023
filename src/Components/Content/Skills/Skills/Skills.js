@@ -127,6 +127,24 @@ function Skills() {
           </div>
         </div>
 
+        <div className="ligne-css">
+          <div className="colonne1-3">
+            <img
+              src={require("../../../../Images/Software/CSS.png")}
+              alt="Git"
+              className="software-css"
+            />
+          </div>
+          <div className="colonne-css">
+          <div className="skill-name">CSS</div>
+            <div className="progress-css">
+              <div className="barre-css">
+              <div className="niveau-css"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <Transverse></Transverse>
       </div>
     </div>
