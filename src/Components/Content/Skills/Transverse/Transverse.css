@@ -40,6 +40,18 @@
     align-items: center;
 }
 
+.btn{
+    background: #94666f;
+}
+
+.btn:hover{
+    background:  #cc909c;
+}
+
+.modal-transverse :hover{
+ cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
     .language-container{
         display: block;
@@ -63,3 +75,4 @@
         text-align: center;
     }
 }
+

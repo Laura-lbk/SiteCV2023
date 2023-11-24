@@ -6,6 +6,12 @@
         "GERMAN": "Native Language",
         "PREMIERPRO" : "Video editing with Premier Pro",
         "PROJECT" : "Project Management",
-        "COMMUNITY" : "Community Management"
+        "COMMUNITY" : "Community Management",
+        "PROJECTMANAGEMENT" : {
+            "TEXT1" : "Creation of a  discord bot as part of the Master 2 Thematic Project",
+            "TEXT2" : "View the file",
+            "TEXT3" : "View the code",
+            "TEXT4" : "Organising online events with other content creators"
+        }
     }
 }
