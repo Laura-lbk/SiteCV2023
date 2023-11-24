@@ -9,23 +9,28 @@
   margin-top: -60px;
 }
 
-.carousel {
-  width: 900px;
+.carousel-caption-mobile {
+  display: none;
+}
+
+.carousel-inner {
+  width: 80vw;
   margin: auto;
   margin-bottom: 50px;
 }
 
 .about-image-container {
+  background-color: aqua;
   display: block;
-  height: 500px;
-  width: 900px;
+  height: 39vw;
+  width: 70vw;
   margin: auto;
 }
 
 .about-image {
-  display: block;
-  position: absolute;
-  width: 900px;
+  height: 39vw;
+  width: 70vw;
+  object-fit: cover;
 }
 
 .carousel-caption {
@@ -34,12 +39,17 @@
   padding: 5px;
   border-radius: 25px;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.411);
-  width: 450px;
+  width: 50vw;
   margin: auto;
 }
 
 .about-title {
   font-weight: 600;
+  font-size: 3em;
+}
+
+.about-description {
+  font-size: 1.7em;
 }
 
 .ending-container {
@@ -58,22 +68,6 @@
   text-align: center;
 }
 
-#about-equitation {
-  top: -85px;
-}
-#about-gateaux {
-  top: -412px;
-}
-#about-carte {
-  top: -122px;
-}
-#about-sport {
-  top: -5px;
-}
-#about-youtube {
-  top: -5px;
-}
-
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -86,100 +80,69 @@
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .carousel {
-    width: 100%;
+@media only screen and (max-width: 1700px) {
+  .about-title {
+    font-weight: 600;
+    font-size: 1.5em;
   }
 
-  .about-image-container {
-    display: block;
-    height: 60vw;
-    width: 100%;
-    margin: auto;
+  .about-description {
+    font-size: 1em;
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .carousel-caption {
+@media only screen and (max-width: 1440px) {
+  .about-title {
+    font-weight: 600;
+  }
+
+  .about-description {
     font-size: 0.8em;
-    background-color: rgb(255, 255, 255);
-    color: #94666f !important;
-    padding: 5px;
-    border-radius: 25px;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.411);
-    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .carousel-inner {
+    width: 100vw;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .about-image-container {
+    background-color: aqua;
+    display: block;
+    height: 100vw;
+    width: 100vw;
     margin: auto;
   }
-  .about-title {
-    font-size: 1.5em;
+
+  .about-image {
+    height: 100vw;
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  .carousel-caption {
+    display: none;
+  }
+
+  .carousel-caption-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content : center;
+    height: 100px;
+    width: 100vw;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: #94666f !important;
+    text-align: center;
+    padding: 10px 30px 0 30px;
   }
 }
 
 @media only screen and (max-width: 550px) {
-  .about-image-container {
-    height: 100vw;
-    width: 100vw;
-    margin-bottom: 250px;
-  }
-  .about-image {
-    height: 100vw;
-    width: fit-content;
-  }
-
-  #about-equitation {
-    top: 0px;
-    left: -100px;
-  }
-  #about-gateaux {
-    width: 100%;
-    top: 0px;
-  }
-  #about-carte {
-    top: 0px;
-    left: -130px;
-  }
-  #about-sport {
-    top: 0px;
-  }
-  #about-youtube {
-    top: 0px;
-  }
-
-  .carousel-caption {
-    position: absolute;
-    z-index: 25;
-    top: 550px;
-    height: 40vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .ending-container {
-    width: 80%;
-
-  }
-  
-  .ending-text {
-    font-size: 0.8em;
-  }
-}
-
-@media only screen and (max-width: 425px) {
-  .carousel-caption {
-    top: 450px;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .carousel-caption {
-    top: 350px;
-    height: 50vw;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .carousel-caption {
-    height: 60vw;
+  .carousel-caption-mobile {
+    height: 200px;
   }
 }

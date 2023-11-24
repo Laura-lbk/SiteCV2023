@@ -28,11 +28,6 @@ function Presentation() {
     <div id="section-presentation">
       <div class="presentation-container">
         <div className="presentation-image">
-          {/* <img
-            src={require("../../../Images/Selfie.jpg")}
-            alt="Photo"
-            id="selfie"
-          ></img> */}
         </div>
         <div className="presentation-spacer"></div>
         <div className="presentation-text">
