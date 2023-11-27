@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SiteCV2023/static/css/main.9962fdb3.css",
+    "main.css": "/SiteCV2023/static/css/main.fec6b8bd.css",
     "main.js": "/SiteCV2023/static/js/main.e762bf4f.js",
     "static/media/Sportive.png": "/SiteCV2023/static/media/Sportive.80953e6417dac4e0f56f.png",
     "static/media/Background.gif": "/SiteCV2023/static/media/Background.320ca18ccf335e3103d7.gif",
@@ -35,11 +35,11 @@
     "static/media/PermierPro.png": "/SiteCV2023/static/media/PermierPro.274840969c5f020ff5b5.png",
     "static/media/Java.png": "/SiteCV2023/static/media/Java.09f5a80c7f42f1c28839.png",
     "index.html": "/SiteCV2023/index.html",
-    "main.9962fdb3.css.map": "/SiteCV2023/static/css/main.9962fdb3.css.map",
+    "main.fec6b8bd.css.map": "/SiteCV2023/static/css/main.fec6b8bd.css.map",
     "main.e762bf4f.js.map": "/SiteCV2023/static/js/main.e762bf4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9962fdb3.css",
+    "static/css/main.fec6b8bd.css",
     "static/js/main.e762bf4f.js"
   ]
 }
