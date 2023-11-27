@@ -35,14 +35,13 @@
 .presentation-image {
   background-image: url("../../../Images/Selfie.jpg");
   background-size: cover;
-  animation: float-reverse 6s ease-in-out infinite; 
+  animation: float-reverse 6s ease-in-out infinite;
   background-color: beige;
   height: 400px;
   width: 400px;
   border-radius: 400px;
   text-align: center;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.521);
-
 }
 
 .presentation-spacer {
@@ -50,8 +49,7 @@
   height: 800px;
 }
 
-#selfie{
-
+#selfie {
 }
 
 @keyframes float {
@@ -127,27 +125,35 @@
     height: 50px;
   }
 
-  @keyframes float {
+  @keyframes float-small {
     0% {
-      transform: translatex(0px);
+      transform: translatex(-5px);
     }
     50% {
-      transform: translatex(-10px);
+      transform: translatex(0px);
     }
     100% {
-      transform: translatex(0px);
+      transform: translatex(-5px);
     }
   }
 
   @keyframes float-reverse {
     0% {
-      transform: translatex(-10px);
+      transform: translatex(5px);
     }
     50% {
-      transform: translatex(-0px);
+      transform: translatex(0px);
     }
     100% {
-      transform: translatex(-10px);
+      transform: translatex(5px);
     }
+  }
+
+  .presentation-text {
+    animation: float-small 6s ease-in-out infinite;
+  }
+
+  .presentation-image {
+    animation: float-reverse 6s ease-in-out infinite;
   }
 }

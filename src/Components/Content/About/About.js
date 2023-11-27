@@ -1,11 +1,104 @@
 import React from "react";
 import "./About.css";
 import Carousel from "react-bootstrap/Carousel";
+import useWindowDimensions from "../../../Hooks/useWindowsDimensions";
 
 import { useTranslation } from "react-i18next";
 
 function About() {
   const [about, i18n] = useTranslation("about");
+
+  const { height, width } = useWindowDimensions();
+
+  let equitation;
+  let gateaux;
+  let carte;
+  let sportive;
+  let youtube;
+
+  if (width > 900) {
+    equitation = (
+      <img
+        src={require("../../../Images/About/Equitation.png")}
+        alt="Equitation"
+        className="about-image"
+        id="about-equitation"
+      ></img>
+    );
+    gateaux = (
+      <img
+        src={require("../../../Images/About/Gateaux.png")}
+        alt="Equitation"
+        className="about-image"
+        id="about-equitation"
+      ></img>
+    );
+    carte = (
+      <img
+        src={require("../../../Images/About/Carte.png")}
+        alt="Equitation"
+        className="about-image"
+        id="about-equitation"
+      ></img>
+    );
+    sportive = (
+      <img
+        src={require("../../../Images/About/Sportive.png")}
+        alt="Equitation"
+        className="about-image"
+        id="about-equitation"
+      ></img>
+    );
+    youtube = (
+      <img
+        src={require("../../../Images/About/Youtube.png")}
+        alt="Equitation"
+        className="about-image"
+        id="about-equitation"
+      ></img>
+    );
+  } else {
+    equitation = (
+      <img
+        src={require("../../../Images/About/SquareEquitation.png")}
+        alt="Equitation"
+        className="about-image"
+        id="about-equitation"
+      ></img>
+    );
+    gateaux = (
+      <img
+        src={require("../../../Images/About/SquareGateaux.png")}
+        alt="Equitation"
+        className="about-image"
+        id="about-equitation"
+      ></img>
+    );
+    carte = (
+      <img
+        src={require("../../../Images/About/SquareCarte.png")}
+        alt="Equitation"
+        className="about-image"
+        id="about-equitation"
+      ></img>
+    );
+    sportive = (
+      <img
+        src={require("../../../Images/About/SquareSportive.png")}
+        alt="Equitation"
+        className="about-image"
+        id="about-equitation"
+      ></img>
+    );
+    youtube = (
+      <img
+        src={require("../../../Images/About/SquareYoutube.png")}
+        alt="Equitation"
+        className="about-image"
+        id="about-equitation"
+      ></img>
+    );
+  }
 
   return (
     <div id="section-about">
@@ -13,14 +106,13 @@ function About() {
 
       <Carousel interval={null} indicators={false}>
         <Carousel.Item>
-          <div className="about-image-container">
-            <img
-              src={require("../../../Images/About/Equitation.jpg")}
-              alt="Equitation"
-              className="about-image"
-              id="about-equitation"
-            ></img>
+          <div className="carousel-caption-mobile">
+            <h3 className="about-title">{about("ABOUT.EQUITATION.TITLE")}</h3>
+            <p className="about-description">
+              {about("ABOUT.EQUITATION.TEXT1")}
+            </p>
           </div>
+          <div className="about-image-container">{equitation}</div>
           <Carousel.Caption>
             <h3 className="about-title">{about("ABOUT.EQUITATION.TITLE")}</h3>
             <p className="about-description">
@@ -29,56 +121,44 @@ function About() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="about-image-container">
-            <img
-              src={require("../../../Images/About/Gâteaux.jpg")}
-              alt="Gateaux"
-              className="about-image"
-              id="about-gateaux"
-            ></img>
+          <div className="carousel-caption-mobile">
+            <h3 className="about-title">{about("ABOUT.FOOD.TITLE")}</h3>
+            <p className="about-description">{about("ABOUT.FOOD.TEXT1")}</p>
           </div>
+          <div className="about-image-container">{gateaux}</div>
           <Carousel.Caption>
             <h3 className="about-title">{about("ABOUT.FOOD.TITLE")}</h3>
             <p className="about-description">{about("ABOUT.FOOD.TEXT1")}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="about-image-container">
-            <img
-              src={require("../../../Images/About/Carte.jpg")}
-              alt="Dessin"
-              className="about-image"
-              id="about-carte"
-            ></img>
+          <div className="carousel-caption-mobile">
+            <h3 className="about-title">{about("ABOUT.DRAWING.TITLE")}</h3>
+            <p className="about-description">{about("ABOUT.DRAWING.TEXT1")}</p>
           </div>
+          <div className="about-image-container">{carte}</div>
           <Carousel.Caption>
             <h3 className="about-title">{about("ABOUT.DRAWING.TITLE")}</h3>
             <p className="about-description">{about("ABOUT.DRAWING.TEXT1")}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="about-image-container">
-            <img
-              src={require("../../../Images/About/Sportive.jpg")}
-              alt="Sport"
-              className="about-image"
-              id="about-sport"
-            ></img>
+          <div className="carousel-caption-mobile">
+            <h3 className="about-title">{about("ABOUT.SPORT.TITLE")}</h3>
+            <p className="about-description">{about("ABOUT.SPORT.TEXT1")}</p>
           </div>
+          <div className="about-image-container">{sportive}</div>
           <Carousel.Caption>
             <h3 className="about-title">{about("ABOUT.SPORT.TITLE")}</h3>
             <p className="about-description">{about("ABOUT.SPORT.TEXT1")}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="about-image-container">
-            <img
-              src={require("../../../Images/About/Youtube.jpg")}
-              alt="Youtube"
-              className="about-image"
-              id="about-youtube"
-            ></img>
+          <div className="carousel-caption-mobile">
+            <h3 className="about-title">{about("ABOUT.YOUTUBE.TITLE")}</h3>
+            <p className="about-description">{about("ABOUT.YOUTUBE.TEXT1")}</p>
           </div>
+          <div className="about-image-container">{youtube}</div>
           <Carousel.Caption>
             <h3 className="about-title">{about("ABOUT.YOUTUBE.TITLE")}</h3>
             <p className="about-description">{about("ABOUT.YOUTUBE.TEXT1")}</p>

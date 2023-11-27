@@ -6,7 +6,12 @@
         "GERMAN": "Langue Natale",
         "PREMIERPRO" : "Montage Vidéo avec Premier Pro",
         "PROJECT" : "Gestion de Projet",
-        "COMMUNITY" : "Gestion de Communauté"
-
+        "COMMUNITY" : "Gestion de Communauté",
+        "PROJECTMANAGEMENT" : {
+            "TEXT1" : "Réalisation d'un bot discord dans le cadre du Projet Thématique en Master 2",
+            "TEXT2" : "voir le dossier",
+            "TEXT3" : "voir le code",
+            "TEXT4" : "Organisation d'évènements en ligne avec d'autres créateurs de contenu"
+        }
     }
 }

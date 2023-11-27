@@ -1,27 +1,25 @@
 import React from "react";
 import "./School.css";
-import { useParallax } from "react-scroll-parallax";
 import { useTranslation } from "react-i18next";
 
 
 function School() {
   const [school] = useTranslation("school");
 
-  // initiation du scrolling
-  const dut = useParallax<HTMLDivElement>({
-    translateY: ["0px", "0px"],
-    translateX: [-100, 0],
-  });
+  window.onload = init;
 
-  const licence = useParallax<HTMLDivElement>({
-    translateY: ["0px", "0px"],
-    translateX: [-200, 0],
-  });
-  const master = useParallax<HTMLDivElement>({
-    translateY: ["0px", "0px"],
-    translateX: [-250, 0],
-  });
-
+  function init() {
+    window.addEventListener(
+      "scroll",
+      () => {
+        document.body.style.setProperty(
+          "--scroll",
+          window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+        );
+      },
+      false
+    );
+  }
 
   return (
     <div id="section-school">
@@ -48,7 +46,7 @@ function School() {
           ></img>
         </div>
 
-        <div className="information-s" ref={dut.ref}>
+        <div className="first">
           <div className="information-container">
             <div className="date">2017 - 2019</div>
             <div className="label">{school("SCHOOL.DUT.LABEL")}</div>
@@ -57,7 +55,7 @@ function School() {
             </div>
           </div>
         </div>
-        <div className="information-m" ref={licence.ref}>
+        <div className="second">
           <div className="information-container">
             <div className="date">2019 - 2020</div>
             <div className="label">{school("SCHOOL.LICENCE.LABEL")}</div>
@@ -66,7 +64,7 @@ function School() {
             </div>
           </div>
         </div>
-        <div className="information-l" ref={master.ref}>
+        <div className="third">
           <div className="information-container">
             <div className="date">2020 - 2023</div>
             <div className="label">{school("SCHOOL.MASTER.LABEL")}</div>

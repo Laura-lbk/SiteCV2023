@@ -17,7 +17,9 @@
         "APPRENTICE": {
             "TITLE" : "Full-Stack Apprenticeship - Mipih",
             "DATE" : "September 2020 - September 2022",
-            "DESCRIPTION" : "Development of time and activity management software for hospitals"
+            "DESCRIPTION" : "Development of time and activity management software for hospitals",
+            "LINK" : "Link to the company"
+
         },
         "INTERN": {
             "TITLE" : "Full-Stack Internship - Mipih",
