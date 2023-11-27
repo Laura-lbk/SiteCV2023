@@ -100,8 +100,6 @@ function About() {
     );
   }
 
-  console.log(equitation);
-
   return (
     <div id="section-about">
       <h1>{about("ABOUT.TITLE")}</h1>
