@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/SiteCV2023/static/css/main.b480f937.css",
-    "main.js": "/SiteCV2023/static/js/main.c71cccf7.js",
-    "static/media/Gâteaux.jpg": "/SiteCV2023/static/media/Gâteaux.f0864de3dfa3c1e098e4.jpg",
+    "main.css": "/SiteCV2023/static/css/main.9962fdb3.css",
+    "main.js": "/SiteCV2023/static/js/main.e762bf4f.js",
+    "static/media/Sportive.png": "/SiteCV2023/static/media/Sportive.80953e6417dac4e0f56f.png",
     "static/media/Background.gif": "/SiteCV2023/static/media/Background.320ca18ccf335e3103d7.gif",
     "static/media/MountainBackground.png": "/SiteCV2023/static/media/MountainBackground.d8cb69b35371d4274bbe.png",
+    "static/media/Gateaux.png": "/SiteCV2023/static/media/Gateaux.42ccc57134cee6e8db90.png",
     "static/media/Selfie.jpg": "/SiteCV2023/static/media/Selfie.87a4d10ccab86f74c08e.jpg",
+    "static/media/Equitation.png": "/SiteCV2023/static/media/Equitation.a7bbbfd7d8adfe0fa947.png",
+    "static/media/SquareSportive.png": "/SiteCV2023/static/media/SquareSportive.b23d6fcd68acf15cc4fc.png",
+    "static/media/Youtube.png": "/SiteCV2023/static/media/Youtube.501ed7d6b820a38f4fc5.png",
+    "static/media/SquareGateaux.png": "/SiteCV2023/static/media/SquareGateaux.dec7adbeb17840a2034a.png",
+    "static/media/SquareEquitation.png": "/SiteCV2023/static/media/SquareEquitation.1c420aa9f80e8582312e.png",
     "static/media/Mountain1.png": "/SiteCV2023/static/media/Mountain1.b97496e1edf886bed664.png",
-    "static/media/Sportive.jpg": "/SiteCV2023/static/media/Sportive.5eaa78128f43e6b0b32f.jpg",
+    "static/media/SquareYoutube.png": "/SiteCV2023/static/media/SquareYoutube.68bd253b261b5d2e694d.png",
     "static/media/Instagram.png": "/SiteCV2023/static/media/Instagram.18fc671b555dd4603e69.png",
     "static/media/Mountain3.png": "/SiteCV2023/static/media/Mountain3.5878efc8aff2d51f03f6.png",
+    "static/media/Carte.png": "/SiteCV2023/static/media/Carte.c3eccaaaaa51d42080e9.png",
     "static/media/UPJVBackground.jpg": "/SiteCV2023/static/media/UPJVBackground.f997dbd2fb8c913c4071.jpg",
-    "static/media/Carte.jpg": "/SiteCV2023/static/media/Carte.cea0a679bd076cca6478.jpg",
+    "static/media/SquareCarte.png": "/SiteCV2023/static/media/SquareCarte.8da77ede5e07f627ca29.png",
     "static/media/UPJVPink.png": "/SiteCV2023/static/media/UPJVPink.a5d343f3609c6ee439b2.png",
-    "static/media/Youtube.jpg": "/SiteCV2023/static/media/Youtube.8447a9fffad44a0ce0ef.jpg",
     "static/media/PhpMyAdmin.png": "/SiteCV2023/static/media/PhpMyAdmin.0cf64bcb3e3cf8cc5388.png",
-    "static/media/Equitation.jpg": "/SiteCV2023/static/media/Equitation.5894cd8cb43536dd5d65.jpg",
     "static/media/Mountain2.png": "/SiteCV2023/static/media/Mountain2.6bb46265b4af107aedfe.png",
     "static/media/Angular.png": "/SiteCV2023/static/media/Angular.01af70871edfe2e291c4.png",
     "static/media/Discord.png": "/SiteCV2023/static/media/Discord.eb5ea47a76a4f8d1052c.png",
-    "static/media/Youtube.png": "/SiteCV2023/static/media/Youtube.501ed7d6b820a38f4fc5.png",
     "static/media/Tiktok.png": "/SiteCV2023/static/media/Tiktok.91ebbc3ca7cc1b7481d3.png",
+    "static/media/CSS.png": "/SiteCV2023/static/media/CSS.e45638344f12f3855ca0.png",
     "static/media/Symfony.png": "/SiteCV2023/static/media/Symfony.3bfe4772bc643eaca827.png",
     "static/media/React.png": "/SiteCV2023/static/media/React.283bf42c605cfc49cf49.png",
     "static/media/MongoDB.png": "/SiteCV2023/static/media/MongoDB.eef6a2e619d682d175bf.png",
@@ -30,11 +35,11 @@
     "static/media/PermierPro.png": "/SiteCV2023/static/media/PermierPro.274840969c5f020ff5b5.png",
     "static/media/Java.png": "/SiteCV2023/static/media/Java.09f5a80c7f42f1c28839.png",
     "index.html": "/SiteCV2023/index.html",
-    "main.b480f937.css.map": "/SiteCV2023/static/css/main.b480f937.css.map",
-    "main.c71cccf7.js.map": "/SiteCV2023/static/js/main.c71cccf7.js.map"
+    "main.9962fdb3.css.map": "/SiteCV2023/static/css/main.9962fdb3.css.map",
+    "main.e762bf4f.js.map": "/SiteCV2023/static/js/main.e762bf4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b480f937.css",
-    "static/js/main.c71cccf7.js"
+    "static/css/main.9962fdb3.css",
+    "static/js/main.e762bf4f.js"
   ]
 }
