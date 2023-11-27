@@ -17,7 +17,8 @@
         "APPRENTICE": {
             "TITLE" : "Alternance Full-Stack - Mipih",
             "DATE" : "Septembre 2020 - Septembre 2022",
-            "DESCRIPTION" : "Développement d’un logiciel hospitalier de gestion du temps et des activités"
+            "DESCRIPTION" : "Développement d’un logiciel hospitalier de gestion du temps et des activités",
+            "LINK" : "Lien vers l'entreprise"
         },
         "INTERN": {
             "TITLE" : "Stage Full-Stack - Mipih",

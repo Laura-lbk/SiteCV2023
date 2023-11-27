@@ -23,7 +23,7 @@ function Experience() {
             <Accordion.Body>
               <div className="accordion-body-flex">
                 <div> {exp("EXPERIENCE.AE.DESCRIPTION1")}</div>
-                <div style={{height:"20px", width:"30px"}}></div>
+                <div style={{ height: "20px", width: "30px" }}></div>
                 <div>
                   <a
                     target="_blank"
@@ -40,7 +40,7 @@ function Experience() {
               </div>
               <div className="accordion-body-flex">
                 <div> {exp("EXPERIENCE.AE.DESCRIPTION2")}</div>
-                <div style={{height:"20px", width:"30px"}}></div>
+                <div style={{ height: "20px", width: "30px" }}></div>
                 <div>
                   <a
                     target="_blank"
@@ -85,9 +85,12 @@ function Experience() {
               >
                 www.unicornis-boutique.fr
               </a>
-              <div style={{width: "1px", height : "10px"}}></div>
+              <div style={{ width: "1px", height: "10px" }}></div>
               <div> {exp("EXPERIENCE.AE.DESCRIPTION4")}</div>
-              <div style={{fontSize: "0.8em"}}>(Microïds, Mindscape, Nacon, Pocket Jeunesse, Star Stable Entertainement)</div>
+              <div style={{ fontSize: "0.8em" }}>
+                (Microïds, Mindscape, Nacon, Pocket Jeunesse, Star Stable
+                Entertainement)
+              </div>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
@@ -127,6 +130,13 @@ function Experience() {
                   className="software"
                 />
               </div>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.mipih.fr/"
+              >
+                {exp("EXPERIENCE.APPRENTICE.LINK")}
+              </a>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
@@ -155,6 +165,13 @@ function Experience() {
                   className="software"
                 />
               </div>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.mipih.fr/"
+              >
+                {exp("EXPERIENCE.APPRENTICE.LINK")}
+              </a>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4">
@@ -173,6 +190,13 @@ function Experience() {
                   className="software"
                 />
               </div>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/company/agence-ohana/about/"
+              >
+                {exp("EXPERIENCE.APPRENTICE.LINK")}
+              </a>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="5">
@@ -184,6 +208,13 @@ function Experience() {
             </Accordion.Header>
             <Accordion.Body>
               <div>{exp("EXPERIENCE.VOLUNTEER.DESCRIPTION")}</div>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.leutenberger-kinderbauernhof.de/"
+              >
+                {exp("EXPERIENCE.APPRENTICE.LINK")}
+              </a>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

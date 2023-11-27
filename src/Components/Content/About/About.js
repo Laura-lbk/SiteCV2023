@@ -10,8 +10,6 @@ function About() {
 
   const { height, width } = useWindowDimensions();
 
-  console.log(width);
-
   let equitation;
   let gateaux;
   let carte;
