@@ -22,6 +22,8 @@ import presentation_fr from "./translations/fr/presentation.json"
 import about_en from "./translations/en/about.json"
 import about_fr from "./translations/fr/about.json"
 
+import { HashRouter as Router} from "react-router-dom";
+
 i18next.init({
   interpolation: { escapeValue: false }, 
     lng: 'fr',                          
@@ -47,7 +49,7 @@ i18next.init({
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <Router>
     <I18nextProvider i18n={i18next}>
       <div id="outer-container">
         <MenuBurger></MenuBurger>
@@ -56,6 +58,6 @@ root.render(
         </main>
       </div>
     </I18nextProvider>
-  </BrowserRouter>
+  </Router>
 );
 
