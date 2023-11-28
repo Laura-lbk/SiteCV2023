@@ -33,7 +33,7 @@ function Experience() {
                     <img
                       src={require("../../../Images/Social/Youtube.png")}
                       alt="Angular"
-                      className="software"
+                      className="social"
                     />
                   </a>
                 </div>
@@ -50,7 +50,7 @@ function Experience() {
                     <img
                       src={require("../../../Images/Social/Instagram.png")}
                       alt="Angular"
-                      className="software"
+                      className="social"
                     />
                   </a>
                   <a
@@ -61,7 +61,7 @@ function Experience() {
                     <img
                       src={require("../../../Images/Social/Tiktok.png")}
                       alt="Angular"
-                      className="software"
+                      className="social"
                     />
                   </a>
                   <a
@@ -72,7 +72,7 @@ function Experience() {
                     <img
                       src={require("../../../Images/Social/Discord.png")}
                       alt="Angular"
-                      className="software"
+                      className="social"
                     />
                   </a>
                 </div>
@@ -112,7 +112,8 @@ function Experience() {
               </div>
             </Accordion.Header>
             <Accordion.Body>
-              <div>{exp("EXPERIENCE.APPRENTICE.DESCRIPTION")}</div>
+              <div>{exp("EXPERIENCE.APPRENTICE.DESCRIPTION1")}</div>
+              <div>{exp("EXPERIENCE.APPRENTICE.DESCRIPTION2")}</div>
               <div>
                 <img
                   src={require("../../../Images/Software/Angular.png")}
@@ -147,7 +148,8 @@ function Experience() {
               </div>
             </Accordion.Header>
             <Accordion.Body>
-              <div>{exp("EXPERIENCE.INTERN.DESCRIPTION")}</div>
+              <div>{exp("EXPERIENCE.INTERN.DESCRIPTION1")}</div>
+              <div>{exp("EXPERIENCE.INTERN.DESCRIPTION2")}</div>
               <div>
                 <img
                   src={require("../../../Images/Software/Angular.png")}

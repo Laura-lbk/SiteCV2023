@@ -3,10 +3,13 @@ import "./Skills.css";
 import Skill from "../SingleSkill/Skill";
 import Transverse from "../Transverse/Transverse";
 
+
 import { useTranslation } from "react-i18next";
 
 function Skills() {
   const [menu] = useTranslation("menu");
+
+
   return (
     <div id="section-skills">
       <div className="skills-container">

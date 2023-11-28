@@ -68,6 +68,12 @@
   text-align: center;
 }
 
+.carousel-navigation{
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
 @keyframes float {
   0% {
     transform: translatey(0px);

@@ -17,14 +17,16 @@
         "APPRENTICE": {
             "TITLE" : "Full-Stack Apprenticeship - Mipih",
             "DATE" : "September 2020 - September 2022",
-            "DESCRIPTION" : "Development of time and activity management software for hospitals",
+            "DESCRIPTION1" : "Development of time and activity management software for hospitals.",
+            "DESCRIPTION2" : "This is a rewrite of an existing solution that tracks the activity of hospital staff and generates payslips.",
             "LINK" : "Link to the company"
 
         },
         "INTERN": {
             "TITLE" : "Full-Stack Internship - Mipih",
             "DATE" : "July 2020 - September 2020",
-            "DESCRIPTION" : "Development of an intra-team dashboard"
+            "DESCRIPTION1" : "Development of an intra-team dashboard.",
+            "DESCRIPTION2" : "This Dashboard displayed a variety of information from Rallye (project management software), the internal calendar and the support service."
         },
         "INTERNDUT": {
             "TITLE" : "Webdesign Internship - Ohana",

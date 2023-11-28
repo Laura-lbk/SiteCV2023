@@ -1,6 +1,7 @@
 import React from "react";
 import "./Transverse.css";
 import { FaProjectDiagram } from "react-icons/fa";
+import { FaPhotoVideo } from "react-icons/fa";
 import { HiUserGroup } from "react-icons/hi2";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
@@ -28,7 +29,7 @@ function MyProjectManagementModal(props) {
           target="_blank"
           rel="noopener noreferrer"
           href="https://drive.google.com/drive/folders/1-Yg11IUbuCRYPH5OiH1BYadtlnDA9pCy?usp=drive_link"
-          style={{display:"block", marginLeft:"20px"}}
+          style={{ display: "block", marginLeft: "20px" }}
         >
           {trans("TRANSVERSE.PROJECTMANAGEMENT.TEXT2")}
         </a>
@@ -53,14 +54,6 @@ function Transverse() {
       <div className="language-container">
         <div>
           <img
-            src={require("../../../../Images/EnglishFlag.jpg")}
-            alt=""
-            className="language"
-          />
-          <div className="language-desc">{trans("TRANSVERSE.ENGLISH")}</div>
-        </div>
-        <div>
-          <img
             src={require("../../../../Images/FrenchFlag.png")}
             alt=""
             className="language"
@@ -75,28 +68,44 @@ function Transverse() {
           />
           <div className="language-desc">{trans("TRANSVERSE.GERMAN")}</div>
         </div>
+        <div>
+          <img
+            src={require("../../../../Images/EnglishFlag.jpg")}
+            alt=""
+            className="language"
+          />
+          <div className="language-desc">{trans("TRANSVERSE.ENGLISH")}</div>
+        </div>
       </div>
       <div className="other-container">
-        <div className="ligne">
+        <div className="ligne modal-transverse">
           <div className="colonne1-3">
-            <img
-              src={require("../../../../Images/Software/PermierPro.png")}
-              alt="Premier Pro"
-              className="software"
-            />
+            <div className="icone">
+            <FaPhotoVideo />
+              {/* <img
+                src={require("../../../../Images/Software/PermierPro.png")}
+                alt="Premier Pro"
+                className="software-transverse"
+              /> */}
+            </div>
           </div>
           <div className="transverse-text">
             {trans("TRANSVERSE.PREMIERPRO")}
           </div>
         </div>
 
-        <div className="ligne modal-transverse" onClick={() => setModalShow(true)}>
+        <div
+          className="ligne modal-transverse"
+          onClick={() => setModalShow(true)}
+        >
           <div className="colonne1-3">
             <div className="icone">
               <FaProjectDiagram />
             </div>
           </div>
-          <div className="transverse-text">{trans("TRANSVERSE.PROJECT")}</div>
+          <div className="transverse-text" style={{ color: "#cc909c" }}>
+            {trans("TRANSVERSE.PROJECT")}{" "}
+          </div>
         </div>
         <MyProjectManagementModal
           show={modalShow}

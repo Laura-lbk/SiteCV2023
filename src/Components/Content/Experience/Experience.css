@@ -1,6 +1,6 @@
 .accordion-container{
     width: 70%;
-    margin: auto;
+    margin: auto;  
 }
 
 .experience-container{
@@ -36,17 +36,27 @@
     text-align: center;
     font-size: 1.3em !important;
     color: #94666f !important; 
+    width: 70%;
+    margin: auto;
 }
 
-.accordion-body-flex{
+/* .accordion-body-flex{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
+} */
+
+.accordion-body .software{
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.accordion-body-flex .software{
+.accordion-body .social{
     height: 40px;
+    margin-top: -5px;
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -61,7 +71,6 @@
     }
     
     .accordion-body{
-        text-align: center; 
         font-size: 1em !important;
         color: #94666f !important; 
     }
@@ -69,6 +78,9 @@
 
 @media only screen and (max-width: 768px) {
     .accordion-container{
+        width: 100%;
+    }
+    .accordion-body{
         width: 100%;
     }
 }
