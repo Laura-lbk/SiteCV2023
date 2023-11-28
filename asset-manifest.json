@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/SiteCV2023/static/css/main.fec6b8bd.css",
-    "main.js": "/SiteCV2023/static/js/main.e762bf4f.js",
+    "main.css": "/SiteCV2023/static/css/main.fc27fa6b.css",
+    "main.js": "/SiteCV2023/static/js/main.9af8ba2b.js",
     "static/media/Sportive.png": "/SiteCV2023/static/media/Sportive.80953e6417dac4e0f56f.png",
-    "static/media/Background.gif": "/SiteCV2023/static/media/Background.320ca18ccf335e3103d7.gif",
+    "static/media/Background.gif": "/SiteCV2023/static/media/Background.5b7ab103c45faae33c1c.gif",
     "static/media/MountainBackground.png": "/SiteCV2023/static/media/MountainBackground.d8cb69b35371d4274bbe.png",
     "static/media/Gateaux.png": "/SiteCV2023/static/media/Gateaux.42ccc57134cee6e8db90.png",
     "static/media/Selfie.jpg": "/SiteCV2023/static/media/Selfie.87a4d10ccab86f74c08e.jpg",
@@ -32,14 +32,13 @@
     "static/media/Git.png": "/SiteCV2023/static/media/Git.bf1499383ca59623c6ac.png",
     "static/media/Oracle.png": "/SiteCV2023/static/media/Oracle.b017d36f12ec9bb95cb2.png",
     "static/media/EnglishFlag.jpg": "/SiteCV2023/static/media/EnglishFlag.5ab0311a40e666cb774f.jpg",
-    "static/media/PermierPro.png": "/SiteCV2023/static/media/PermierPro.274840969c5f020ff5b5.png",
     "static/media/Java.png": "/SiteCV2023/static/media/Java.09f5a80c7f42f1c28839.png",
     "index.html": "/SiteCV2023/index.html",
-    "main.fec6b8bd.css.map": "/SiteCV2023/static/css/main.fec6b8bd.css.map",
-    "main.e762bf4f.js.map": "/SiteCV2023/static/js/main.e762bf4f.js.map"
+    "main.fc27fa6b.css.map": "/SiteCV2023/static/css/main.fc27fa6b.css.map",
+    "main.9af8ba2b.js.map": "/SiteCV2023/static/js/main.9af8ba2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.fec6b8bd.css",
-    "static/js/main.e762bf4f.js"
+    "static/css/main.fc27fa6b.css",
+    "static/js/main.9af8ba2b.js"
   ]
 }
