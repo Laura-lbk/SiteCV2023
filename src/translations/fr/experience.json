@@ -17,13 +17,15 @@
         "APPRENTICE": {
             "TITLE" : "Alternance Full-Stack - Mipih",
             "DATE" : "Septembre 2020 - Septembre 2022",
-            "DESCRIPTION" : "Développement d’un logiciel hospitalier de gestion du temps et des activités",
+            "DESCRIPTION1" : "Développement d’un logiciel hospitalier de gestion du temps et des activités.",
+            "DESCRIPTION2" : "Il s'agit d'une réecriture d'une solution déjà existante qui permet de tracer l'activité du personnel hospitalier et de générer les fiches de paie.",
             "LINK" : "Lien vers l'entreprise"
         },
         "INTERN": {
             "TITLE" : "Stage Full-Stack - Mipih",
             "DATE" : "Juillet 2020 - Septembre 2020",
-            "DESCRIPTION" : "Développement d’un Dashboard intra-équipe"
+            "DESCRIPTION1" : "Développement d’un Dashboard intra-équipe.",
+            "DESCRIPTION2" : "Ce Dashboard affichait diverses informations issues de Rallye (logiciel de gestion de projet), du calendrier interne et du service de support."
         },
         "INTERNDUT": {
             "TITLE" : "Stage Webdesign - Ohana",

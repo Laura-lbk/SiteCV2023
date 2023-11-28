@@ -33,12 +33,19 @@
   justify-content: space-between;
 }
 
+.skills-container h1{
+  margin:0;
+  margin-bottom: 40px;
+}
+
 .skills-container{
   width: 60%;
   background: white;
   border-radius: 25px;
   margin: auto;
+  margin-top:50px;
   padding-bottom: 50px;
+  padding-top: 40px;
 }
 
 #section-skills{
@@ -90,6 +97,12 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .software{
+    height: 50px;
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
   .ligne {
@@ -120,6 +133,10 @@
   .niveau-css{
     width: 350px;
     right: 50px;
+  }
+
+  .software{
+    height: 80px;
   }
 
   .software-css{

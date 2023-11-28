@@ -13,7 +13,7 @@ function MenuBurger() {
   };
   return (
     <Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"}>
-      <div>
+      <div className="drapeau-container">
         <img
           src={require("../../Images/EnglishFlag.jpg")}
           alt=""

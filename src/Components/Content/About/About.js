@@ -3,6 +3,9 @@ import "./About.css";
 import Carousel from "react-bootstrap/Carousel";
 import useWindowDimensions from "../../../Hooks/useWindowsDimensions";
 
+import { FaArrowCircleRight } from "react-icons/fa";
+import { FaArrowCircleLeft } from "react-icons/fa";
+
 import { useTranslation } from "react-i18next";
 
 function About() {
@@ -104,7 +107,12 @@ function About() {
     <div id="section-about">
       <h1>{about("ABOUT.TITLE")}</h1>
 
-      <Carousel interval={null} indicators={false}>
+      <Carousel
+        interval={null}
+        indicators={false}
+        prevIcon={<FaArrowCircleLeft className="carousel-navigation"/>}
+        nextIcon={<FaArrowCircleRight className="carousel-navigation"/>}
+      >
         <Carousel.Item>
           <div className="carousel-caption-mobile">
             <h3 className="about-title">{about("ABOUT.EQUITATION.TITLE")}</h3>

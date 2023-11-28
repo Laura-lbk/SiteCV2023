@@ -13,13 +13,15 @@
 .language-desc{
     margin-top:20px;
     font-size: 1.1em;
-    width: 300px;
+    width: 250px;
     text-align: center;
 }
 
 .transverse .ligne {
     margin-top:40px;
-    width : 60%;
+    width : 70%;
+    padding:0;
+    align-items: center;
 }
 
 .transverse .icone{
@@ -28,12 +30,14 @@
 
 .transverse-text{
     font-size: 1.2em;
+    min-width: 350px;
     display: flex;
     align-items:center;
+    margin-left: 50px ;
 }
 
 .transverse .other-container{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -50,6 +54,39 @@
 
 .modal-transverse :hover{
  cursor: pointer;
+}
+
+.software-transverse{
+    height: 60px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .language{
+        height : 80px;
+        width:120px;
+        display: block;
+        margin: auto;
+    }
+
+    .language-container{
+        align-items: normal;
+    }
+
+    .language-desc{
+        margin-top:20px;
+        font-size: 1.1em;
+        width: 200px;
+        text-align: center;
+    }
+
+    .transverse .other-container{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        justify-content: flex-start;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -70,9 +107,16 @@
     }
 
     .transverse-text{
+        margin: 0;
+        margin: auto;
         margin-top:20px;
         display: block;
+        width: fit-content;
         text-align: center;
+    }
+
+    .transverse .other-container{
+        width: 100%;
     }
 }
 
